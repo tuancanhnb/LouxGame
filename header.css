@@ -1,0 +1,73 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Segoe UI","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.header{
+    padding: 50px 0;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+}
+.header .content-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 185px;
+}
+.header .content-header .logo-header{
+    line-height: 80px;
+}
+.header .content-header .menu .element .social{
+    display: flex;
+    justify-content: flex-end;
+}
+.header .content-header .menu .element .social .search{
+    line-height: 30px;
+    padding: 0 10px;
+}
+.header .content-header .menu .element .social .search:hover i{
+    color: #ffc311;
+}
+.header .content-header .menu .element .social .search i{
+    color: white;
+}
+.header .content-header .menu .element .social .icon{
+    padding: 0 10px;
+    color: white;
+    line-height: 30px;
+}
+.header .content-header .menu .element .social .icon i{
+    transition: all 0.2s ease-in-out;
+}
+.header .content-header .menu .element .social .icon:hover i{
+    color: #ffc311;
+}
+.header .content-header .menu .element .social .icon i{
+    color: white;
+}
+.header .content-header .menu .element .social .login_sign-up{
+    display: flex;
+    margin-left: 30px;
+    line-height: 30px;
+    background-color: #ffc311;
+    justify-content: center;
+    width: 20%;
+    border-radius: 25px;
+    height: 30px;
+}
+.header .content-header .menu .element .social .login_sign-up .login{
+    padding: 0 5px;
+    border-right: 1px solid rgba(0, 0, 0, 0.08);
+}
+.header .content-header .menu .element .social .login_sign-up .login a{
+    text-decoration: none;
+    color: white;
+}
+.header .content-header .menu .element .social .login_sign-up .sign-up{
+    padding: 0 5px;
+    border-left: 1px solid rgba(255, 255, 255, 0.15);
+}
+.header .content-header .menu .element .social .login_sign-up .sign-up a{
+    text-decoration: none;
+    color: white;
+}

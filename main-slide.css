@@ -1,0 +1,83 @@
+.main .slide{
+    background-image: url(/LouxGame/image/img-bgr-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 200px 0;
+}
+.main .slide .inner{
+    text-align: center;
+    margin: 0 380px;
+}
+.main .slide .inner .game-detail{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.main .slide .inner .game-detail .content{
+    margin-right: 20px;
+}
+.main .slide .inner .game-detail .content a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+.main .slide .inner .game-detail .content:hover a{
+    color: #ffc311;
+}
+.main .slide .inner .game-detail .content a i{
+    color: #ffc311;
+    margin: 0 10px;
+}
+.main .slide .inner .title .content{
+    color: white;
+    font-weight: 900;
+    margin: 0;
+    font-size: 75px;
+}
+.main .slide .inner .title .excerpt{
+    color: white;
+    margin: 25px 0 30px 0;
+    font-size: 17px;
+}
+.main .slide .inner .btn{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.main .slide .inner .btn .btn-1{
+    margin: 0 20px;
+    padding: 15px;
+    border-bottom: 2px solid white;
+    color: white;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+}
+.main .slide .inner .btn .btn-1:hover a{
+    color: #ffc311;
+}
+.main .slide .inner .btn .btn-1:hover{
+    border-color: #ffc311;
+}
+.main .slide .inner .btn .btn-1 a{
+    text-decoration: none;
+    color: white;
+}
+.main .slide .inner .btn .btn-2{
+    margin: 0 20px;
+    padding: 15px;
+    border-bottom: 2px solid white;
+    color: white;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+}
+.main .slide .inner .btn .btn-2 a{
+    text-decoration: none;
+    color: white;
+}
+.main .slide .inner .btn .btn-2:hover a{
+    color: #ffc311;
+}
+.main .slide .inner .btn .btn-2:hover{
+    border-color: #ffc311;
+}
