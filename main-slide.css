@@ -1,3 +1,4 @@
+/* slide */
 .main .slide{
     background-image: url(/LouxGame/image/img-bgr-1.jpg);
     background-repeat: no-repeat;
@@ -80,4 +81,108 @@
 }
 .main .slide .inner .btn .btn-2:hover{
     border-color: #ffc311;
+}
+
+/* list-banner */
+.main .list-banner{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+.main .list-banner .banner-1{
+    width: 25%;
+    background-image: url(/LouxGame/image/img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    box-shadow: #9f9f9f 0px 0px 30px;
+}
+.main .list-banner .banner-2{
+    width: 25%;
+    background-image: url(/LouxGame/image/img-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    box-shadow: #9f9f9f 0px 0px 30px;
+}
+.main .list-banner .banner-3{
+    width: 25%;
+    background-image: url(/LouxGame/image/img-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    box-shadow: #9f9f9f 0px 0px 30px;
+}
+.main .list-banner .enner{
+    padding: 80px 35px;
+}
+.main .list-banner .enner .top-title{
+    margin: 0;
+    color: #ffc311;
+    font-size: 15px;
+    font-weight: 700;
+}
+.main .list-banner .enner .main-title{
+    color: white;
+    margin: 0;
+    font-size: 25px;
+    font-weight: 900;
+}
+.main .list-banner .enner .text{
+    color: white;
+    margin: 0;
+    margin-top: 15px;
+}
+.main .list-banner .enner .btn{
+    border-bottom: 1px solid #ffc311;
+    width: 30%;
+    margin-left: 20px;
+    text-align: center;
+    padding: 10px;
+    transition: height 1s;
+}
+.main .list-banner .enner .btn:hover a{
+    color: white;
+}
+.main .list-banner .enner .btn a{
+    color: #ffc311;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+/* list-game */
+.main .selection .tab .choose{
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    padding: 0;
+}
+.main .selection .tab .choose li{
+    list-style: none;
+    padding: 15px 18px;
+    border: 1px solid #ffc311;
+    margin: 0 15px;
+    transition: all 0.3s ease-out;
+}
+.main .selection .tab .choose li:hover{
+    background-color: #ffc311;
+}
+.main .selection .tab .choose li:hover a{
+    color: white;
+}
+.main .selection .tab .choose li a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    color: #ffc311;
+}
+.main .selection .list-game{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    margin: 0 auto;
 }
